@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-export default function RehearseButton({ text, onPress }) {
+export default function CustomButton({ text, onPress }) {
   return (
     <TouchableOpacity
       onPress={onPress}
@@ -13,7 +13,7 @@ export default function RehearseButton({ text, onPress }) {
   );
 }
 
-RehearseButton.propTypes = {
+CustomButton.propTypes = {
   onPress: PropTypes.func.isRequired,
   text: PropTypes.string.isRequired,
 };

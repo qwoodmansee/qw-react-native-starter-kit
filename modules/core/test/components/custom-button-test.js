@@ -1,13 +1,13 @@
 import React from 'react';
-import RehearseButton from '@core/src/components/rehearse-button';
+import CustomButton from '@core/src/components/custom-button';
 import { fireEvent, render } from '@testing-library/react-native';
 
-describe('RehearseButton', () => {
+describe('CustomButton', () => {
   it('renders the button with the passed in text', () => {
     const onPressMock = jest.fn();
 
     const { getByText } = render(
-      <RehearseButton
+      <CustomButton
         onPress={onPressMock}
         text={'Button Test Text'}
       />);
@@ -19,7 +19,7 @@ describe('RehearseButton', () => {
     const onPressMock = jest.fn();
 
     const { getByText } = render(
-      <RehearseButton
+      <CustomButton
         onPress={onPressMock}
         text={'Button Test Text'}
       />);
