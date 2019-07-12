@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
 import CustomButton from '@core/src/components/custom-button';
+import React from 'react';
 import { View } from 'react-native';
 import { storiesOf } from '@storybook/react-native';
+
 const style = {
   flex: 1,
   justifyContent: 'center',

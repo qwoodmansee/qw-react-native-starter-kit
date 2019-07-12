@@ -1,4 +1,4 @@
-# React Native Starter Kit [![Build Status](https://travis-ci.org/qwoodmansee/rehearse.svg?branch=master)](https://travis-ci.org/qwoodmansee/rehearse)
+# React Native Starter Kit [![Build Status](https://travis-ci.org/qwoodmansee/qw-react-native-starter-kit.svg?branch=master)](https://travis-ci.org/qwoodmansee/qw-react-native-starter-kit)
 This React Native starter kit is for spinning up applications quickly, while having a nice toolkit and modular enviroment to work with. While I like the default expo setup, I wanted some things set up out of the box (linting, updated testing libraries, storybook, etc.) when I go to setup projects in the future.
 
 ## Using this template
