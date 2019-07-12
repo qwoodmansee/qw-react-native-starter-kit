@@ -1,16 +1,15 @@
-# rehearse [![Build Status](https://travis-ci.org/qwoodmansee/rehearse.svg?branch=master)](https://travis-ci.org/qwoodmansee/rehearse)
-rehearse is an iOS/Android application used to practice difficult pieces of music to recordings, allowing users to speed up or slow down recordings and set practice points and loops. With an emphasis on a user-friendly experience, rehearse allows users to simply log in to their Google account and link to a Google Drive folder to source the audio and sheet music for their practice needs. If you lead an ensemble, you can set up one shared Google Drive for all your students to use. Alternatively, if you are a student, you can create your own Google Drive just for the songs you know you need to practice.
+# React Native Starter Kit [![Build Status](https://travis-ci.org/qwoodmansee/qw-react-native-starter-kit.svg?branch=master)](https://travis-ci.org/qwoodmansee/qw-react-native-starter-kit)
+This React Native starter kit is for spinning up applications quickly, while having a nice toolkit and modular enviroment to work with. While I like the default expo setup, I wanted some things set up out of the box (linting, updated testing libraries, storybook, etc.) when I go to setup projects in the future.
 
-## Download
-rehearse is currently under active development in an extremely early stage. Once core features are complete, you'll be able to find rehearse on the App Store and Play Store. Be sure to keep an eye on the repository for updates!
+## Using this template
+This repository uses Github's template feature, meanining you can simply click `Use This Template` above and create your own repository based on it. After this is done, you'll want to make a commit which changes the string `practiceapp` throughout the codebase to whatever you'd like your application to be named (they are all within configuration json files).
 
 ## Running Locally
-Rehearse was built using React Native on top of the [Expo](https://expo.io/learn) toolset. You'll need an Android Simulator (we recommend downloading [Android Studio](https://developer.android.com/studio)) and/or an iOS Simulator (we recommend installing [XCode](https://developer.apple.com/xcode/)), but otherwise running the app locally is simple:
+This starter kit was built on top of the [Expo](https://expo.io/learn) toolset. You'll need an Android Simulator (we recommend downloading [Android Studio](https://developer.android.com/studio)) and/or an iOS Simulator (we recommend installing [XCode](https://developer.apple.com/xcode/)), but otherwise running the app locally is simple:
 
 ```bash
-git clone https://github.com/qwoodmansee/rehearse.git
-cd rehearse
-expo start
+cd your-cloned-repository
+yarn start
 ```
 
 ## Contributing

@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
+import CustomButton from '@core/src/components/custom-button';
 import React from 'react';
-import RehearseButton from '@core/src/components/rehearse-button';
 import { View } from 'react-native';
 import { storiesOf } from '@storybook/react-native';
+
 const style = {
   flex: 1,
   justifyContent: 'center',
@@ -12,9 +13,9 @@ const style = {
 
 const CenteredView = ({ children }) => <View style={style}>{children}</View>;
 
-storiesOf('Rehearse Button', module).add('default', () => (
+storiesOf('Custom Button', module).add('default', () => (
   <CenteredView>
-    <RehearseButton
+    <CustomButton
       onPress={() => {}}
       text={'this is a button'}
     />
