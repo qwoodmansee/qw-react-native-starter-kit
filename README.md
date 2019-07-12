@@ -1,4 +1,4 @@
-# React Native Starter Kit [![Build Status](https://travis-ci.org/qwoodmansee/qw-react-native-starter-kit.svg?branch=master)](https://travis-ci.org/qwoodmansee/qw-react-native-starter-kit) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+# React Native Starter Kit [![Build Status](https://travis-ci.org/qwoodmansee/qw-react-native-starter-kit.svg?branch=master)](https://travis-ci.org/qwoodmansee/qw-react-native-starter-kit) [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 This React Native starter kit is for spinning up applications quickly, while having a nice toolkit and modular enviroment to work with. While I like the default expo setup, I wanted some things set up out of the box (linting, updated testing libraries, storybook, etc.) when I go to setup projects in the future.
 
 ## Using this template
@@ -34,6 +34,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/mcgloneleviROOT"><img src="https://avatars3.githubusercontent.com/u/48258981?v=4" width="100px;" alt="mcgloneleviROOT"/><br /><sub><b>mcgloneleviROOT</b></sub></a><br /><a href="https://github.com/qwoodmansee/qw-react-native-starter-kit/commits?author=mcgloneleviROOT" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/qwoodmansee"><img src="https://avatars1.githubusercontent.com/u/10392661?v=4" width="100px;" alt="Quinton Woodmansee"/><br /><sub><b>Quinton Woodmansee</b></sub></a><br /><a href="#infra-qwoodmansee" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/qwoodmansee/qw-react-native-starter-kit/commits?author=qwoodmansee" title="Tests">⚠️</a> <a href="https://github.com/qwoodmansee/qw-react-native-starter-kit/commits?author=qwoodmansee" title="Code">💻</a></td>
   </tr>
 </table>
 
