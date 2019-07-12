@@ -8,6 +8,7 @@ This repository uses Github's template feature, meanining you can simply click `
 This starter kit was built on top of the [Expo](https://expo.io/learn) toolset. You'll need an Android Simulator (we recommend downloading [Android Studio](https://developer.android.com/studio)) and/or an iOS Simulator (we recommend installing [XCode](https://developer.apple.com/xcode/)), but otherwise running the app locally is simple:
 
 ```bash
+npm install expo-cli --global
 cd your-cloned-repository
 yarn start
 ```
